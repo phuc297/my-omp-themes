@@ -4,15 +4,15 @@
 curl -s https://ohmyposh.dev/install.sh | bash -s
 ```
 
+
 ```bash
-export PATH="$HOME/.local/bin:$PATH"
+echo $SHELL
 ```
 
 ```bash
-source ~/.bashrc
-# hoặc
-source ~/.zshrc
+export PATH="$HOME/.local/bin:$PATH"
 ```
+Add to `~/.profile` if not work
 
 ```bash
 oh-my-posh font install
