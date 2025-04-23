@@ -4,7 +4,6 @@
 curl -s https://ohmyposh.dev/install.sh | bash -s
 ```
 
-
 ```bash
 echo $SHELL
 ```
@@ -12,7 +11,7 @@ echo $SHELL
 ```bash
 export PATH="$HOME/.local/bin:$PATH"
 ```
-Add to `~/.profile` if not work
+Add to `~/.bashrc` if not work
 
 ```bash
 oh-my-posh font install
