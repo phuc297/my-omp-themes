@@ -42,6 +42,15 @@
           "style": "plain"
         },
         {
+          "foreground": "#FFFFFF",
+          "properties": {
+            "style": "folder"
+          },
+          "style": "plain",
+          "template": "\uf115 {{ .Path }} ",
+          "type": "path"
+        },
+        {
           "properties": {
             "cache_duration": "none"
           },
