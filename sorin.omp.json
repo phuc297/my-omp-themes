@@ -54,7 +54,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "<#ffffff>git:</>{{ .HEAD }} ",
+          "template": "<#ffffff></>{{ .HEAD }} ",
           "foreground": "#C1C106",
           "type": "git",
           "style": "plain"
@@ -63,7 +63,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "<#CB4B16>❯</><#CACA02>❯</><#4E9A06>❯</> ",
+          "template": "<#CACA02>❯</> ",
           "foreground": "#ffffff",
           "type": "text",
           "style": "plain"
