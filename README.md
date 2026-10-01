@@ -14,7 +14,7 @@ export PATH="$HOME/.local/bin:$PATH"
 Add to `~/.bashrc` if not work
 
 ```bash
-oh-my-posh font install
+oh-my-posh font install <font>
 ```
 
 ```bash
@@ -22,6 +22,6 @@ mkdir -p ~/.poshthemes
 ```
 
 ```bash
-eval "$(oh-my-posh init bash --config ~/.poshthemes/your-theme.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.poshthemes/<your-theme.omp.json>)"
 ```
 
